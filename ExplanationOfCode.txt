@@ -1,0 +1,15 @@
+Basic explanation of Code:
+The code takes Qdata.txt data and plots a graph out of that.
+
+Data Description:
+The data is a collection of real ( decimal ) values over a period of time - from 2000 to 2013. First column in each row is the date in increasing order and second and third values indicate the real values.
+
+Technique Used:
+1: The first row is removed because it contains the labels for data and is mnot useful for the graph construction.
+2: Since, all data is date sorted, the code simply reads all rows from the file and plots it by a Python function: matplotlib.pyplot.plot()
+
+Learning:
+1: Python can be used to create graphs and charts of a dataset. We can create a collection of data and plot it in our desired charts/graphs.
+2: We need to understand how can we make more complex graphs and charts by exploring the plot function in Python.
+
+
